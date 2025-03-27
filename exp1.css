@@ -1,0 +1,108 @@
+body{
+    .logo{
+        height: 30px;
+        width: 20%;
+        position: relative;
+        top: 7px;
+
+    }
+    .navigations{
+        margin-left: 40%;
+        display: flex;
+        gap: 20px;
+        position: relative;
+        top: -22px;
+    }
+    .btn{
+        margin-left: 90%;
+        display: flex;
+        gap: 30px;
+        flex-direction: row;
+        position:relative;
+        top: -40px;
+     border: 1px solid black; 
+     padding: 10px 10px;
+     font-size: 16px;
+       color:black;
+       background-color: white;
+    }
+    .text{
+        border-left: 2px solid black;
+padding-left: 10px;
+    }
+    .btn1{
+        border: 1px solid black; 
+     padding: 10px 10px;
+     font-size: 16px;
+       color:#fff;
+       background-color:purple;
+       
+        
+    }
+    .btn2{
+        border: 1px solid black; 
+     padding: 10px 10px;
+     font-size: 16px;
+       color:black;
+       background-color: white;
+
+    }
+    .purple{
+        height: 300px;
+        position: relative;
+        top: -250px;
+       left: 50%;
+    }
+    .image{
+        height: 200px;
+        position:relative;
+        top: -300px;
+        left: 29%;
+       
+       
+
+    }
+    .arrow{
+        height: 30px;
+        position: relative;
+       bottom: 200px;
+       transform: rotate(200deg);
+       left: 20%;
+    }
+    .halfarrow{
+        height: 40px;
+        position: relative;
+        top: -100px;
+        
+    }
+    .circle{
+        height: 40px;
+        position: relative;
+        bottom: 400%;
+        left:20% ;
+    }
+    .girl{
+        height: 45px;
+        position: relative;
+        top:-40px ;
+        left: 25%;
+    }
+.bulb{
+
+    height: 50px;
+    position: relative;
+        top:-235px ;
+        left: 40%;
+}
+
+.hours{
+    height: 40px;
+    position: relative;
+        top:-435px ;
+        left: 55%;
+}
+}
+
+
+    
+
