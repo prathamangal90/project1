@@ -1,10 +1,23 @@
-body{
+
     .logo{
         height: 30px;
         width: 20%;
         position: relative;
         top: 7px;
+        position: relative;
+        left: 5%;
 
+    }
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        height: 100%;
+        
+    }
+    div{
+        margin: 0;
+        padding: 0;
     }
     .navigations{
         margin-left: 40%;
@@ -12,6 +25,14 @@ body{
         gap: 20px;
         position: relative;
         top: -22px;
+        
+    }
+    .navigations a{
+        text-decoration: none; 
+        color: black; 
+        font-weight: bold; 
+
+
     }
     .btn{
         margin-left: 90%;
@@ -27,8 +48,15 @@ body{
        background-color: white;
     }
     .text{
+        position: relative;
+        left: 5%;
+
+    }
+    .text1{
         border-left: 2px solid black;
-padding-left: 10px;
+        padding-left: 10px;
+        position: relative;
+        left: 5%;
     }
     .btn1{
         border: 1px solid black; 
@@ -36,6 +64,9 @@ padding-left: 10px;
      font-size: 16px;
        color:#fff;
        background-color:purple;
+       position: relative;
+        left: 5%;
+
        
         
     }
@@ -45,6 +76,8 @@ padding-left: 10px;
      font-size: 16px;
        color:black;
        background-color: white;
+       position: relative;
+        left: 5%;
 
     }
     .purple{
@@ -58,6 +91,7 @@ padding-left: 10px;
         position:relative;
         top: -300px;
         left: 29%;
+        margin-bottom: 0;
        
        
 
@@ -65,43 +99,61 @@ padding-left: 10px;
     .arrow{
         height: 30px;
         position: relative;
-       bottom: 200px;
+       bottom: 245px;
        transform: rotate(200deg);
        left: 20%;
+    }
+    .arrow1{
+        height: 30px;
+        position: relative;
+       bottom: 500px;
+       transform: rotate(270deg);
+       right: 15%;
+
     }
     .halfarrow{
         height: 40px;
         position: relative;
-        top: -100px;
+        top: -300px;
         
     }
     .circle{
         height: 40px;
         position: relative;
-        bottom: 400%;
-        left:20% ;
+        bottom: 330px;
+        left:25% ;
     }
     .girl{
         height: 45px;
         position: relative;
-        top:-40px ;
-        left: 25%;
+        top:-100px ;
+        left: 30%;
     }
 .bulb{
 
     height: 50px;
     position: relative;
-        top:-235px ;
-        left: 40%;
+        top:-290px ;
+        left: 50%;
 }
 
 .hours{
     height: 40px;
     position: relative;
-        top:-435px ;
-        left: 55%;
+        top:-485px ;
+        left: 70%;
 }
+footer {
+    background-color: purple;
+    color: white;
+    height: 250px;
+    padding: 40px 20px;
+    top: -200px; 
+    position: relative;
+    
+    
 }
+
 
 
     
